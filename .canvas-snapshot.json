@@ -4,7 +4,7 @@
     "title": "Algorithmic Problem Solving Quiz",
     "html_url": "https://learning.flatironschool.com/courses/3297/quizzes/22405",
     "mobile_url": "https://learning.flatironschool.com/courses/3297/quizzes/22405?force_user=1&persist_headless=1",
-    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-algorithmic-problem-solving\"></div>\n<header class=\"fis-header\"><a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-algorithmic-problem-solving/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a></header>\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide. Note any answers that were marked incorrect, so you can study the relevant material and try this quiz again.</p>\n<p>If you don't know the answer to a question, please do not guess. Instead, select \"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
+    "description": "<div id=\"git-data-element\" data-org=\"learn-co-curriculum\" data-repo=\"phase-1-quiz-algorithmic-problem-solving\"></div>\n<header class=\"fis-header\">\n  <a class=\"fis-git-link\" href=\"https://github.com/learn-co-curriculum/phase-1-quiz-algorithmic-problem-solving/issues/new\" target=\"_blank\"><img id=\"issue-img\" title=\"Create New Issue\" alt=\"Create New Issue\"></a>\n</header>\n\n<p>It's time to check your knowledge! Use this quiz to create a custom study guide.\nNote any answers that were marked incorrect, so you can study the relevant\nmaterial and try this quiz again.</p>\n\n<p>If you don't know the answer to a question, please do not guess. Instead, select\n\"I don't know\". It's OK not to know everything and to admit when we're unsure.</p>",
     "quiz_type": "assignment",
     "time_limit": null,
     "timer_autosubmit_disabled": false,
@@ -71,7 +71,7 @@
     "only_visible_to_overrides": false,
     "assignment_group_id": 10827,
     "show_correct_answers_last_attempt": true,
-    "version_number": 8,
+    "version_number": 9,
     "has_access_code": false,
     "post_to_sis": false,
     "migration_id": null,
@@ -90,7 +90,7 @@
       "position": null,
       "question_name": "Question 1",
       "question_type": "short_answer_question",
-      "question_text": "<p>An _____ is simply a well-defined procedure, or set of instructions, for\naccomplishing a specific task.</p>",
+      "question_text": "<p>A/an _____ is simply a well-defined procedure, or set of instructions, for\naccomplishing a specific task.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
@@ -100,14 +100,14 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/what-is-an-algorithm\">What is an Algorithm?</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 2922,
+          "id": "2922",
           "text": "algorithm",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 4288,
+          "id": "4288",
           "text": "Algorithm",
           "comments": "",
           "comments_html": "",
@@ -139,21 +139,21 @@
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"https://learning.flatironschool.com/courses/3297/pages/big-o-notation\">Big O Notation</a></li></ul><p></p>",
       "answers": [
         {
-          "id": 4872,
+          "id": "4872",
           "text": "Big O",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 7611,
+          "id": "7611",
           "text": "Big O notation",
           "comments": "",
           "comments_html": "",
           "weight": 100
         },
         {
-          "id": 9881,
+          "id": "9881",
           "text": "Big O Notation",
           "comments": "",
           "comments_html": "",
@@ -189,7 +189,7 @@
           "text": "",
           "html": "<p>O(n)</p>",
           "comments": "",
-          "comments_html": "<p>Correct! Since the algorithm needs to iterate through each letter of the\ninput, the time complexity will grow in linear proportion to the size of the\ninput.</p>",
+          "comments_html": "<p>Correct! Since the algorithm needs to iterate through each letter of the input,\nthe time complexity will grow in linear proportion to the size of the input.</p>",
           "weight": 100.0
         },
         {
@@ -197,7 +197,7 @@
           "text": "",
           "html": "<p>O(1)</p>",
           "comments": "",
-          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless\nof how large the input is.</p>",
+          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is.</p>",
           "weight": 0.0
         },
         {
@@ -254,7 +254,7 @@
           "text": "",
           "html": "<p>O(n²)</p>",
           "comments": "",
-          "comments_html": "<p>Correct! Since this algorithm comparing each element against each other\nelement in this array, as the size of the input array grows, the runtime gets\nexponentially worse.</p>",
+          "comments_html": "<p>Correct! Since this algorithm comparing each element against each other element\nin this array, as the size of the input array grows, the runtime gets\nexponentially worse.</p>",
           "weight": 100.0
         },
         {
@@ -262,7 +262,7 @@
           "text": "",
           "html": "<p>O(n)</p>",
           "comments": "",
-          "comments_html": "<p>Now quite. O(n) would mean the time complexity will grow in linear proportion\nto the size of the input.</p>",
+          "comments_html": "<p>Now quite. O(n) would mean the time complexity will grow in linear proportion to\nthe size of the input.</p>",
           "weight": 0.0
         },
         {
@@ -270,7 +270,7 @@
           "text": "",
           "html": "<p>O(1)</p>",
           "comments": "",
-          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless\nof how large the input is.</p>",
+          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is.</p>",
           "weight": 0.0
         },
         {
@@ -319,7 +319,7 @@
           "text": "",
           "html": "<p>O(n)</p>",
           "comments": "",
-          "comments_html": "<p>Correct! Even though we're building a built-in method, the JavaScript engine\nwould still need to iterate over every element of the input array under the\nhood in order to find the index position of the target element.</p>",
+          "comments_html": "<p>Correct! Even though we're building a built-in method, the JavaScript engine\nwould still need to iterate over every element of the input array under the hood\nin order to find the index position of the target element.</p>",
           "weight": 100.0
         },
         {
@@ -327,7 +327,7 @@
           "text": "",
           "html": "<p>O(1)</p>",
           "comments": "",
-          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless\nof how large the input is. Even though we're using a built-in method, the\nJavaScript engine still needs to iterate over every element of the input array\nunder the hood in order to find the index position of the target element.</p>",
+          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is. Even though we're using a built-in method, the\nJavaScript engine still needs to iterate over every element of the input array\nunder the hood in order to find the index position of the target element.</p>",
           "weight": 0.0
         },
         {
