@@ -85,30 +85,32 @@
       "id": 366205,
       "quiz_id": 53430,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 1,
+      "assessment_question_id": 632081,
+      "position": null,
       "question_name": "Question 1",
       "question_type": "short_answer_question",
-      "question_text": "A/an _____ is simply a well-defined procedure, or set of instructions, for\naccomplishing a specific task.",
+      "question_text": "<p>A/an _____ is simply a well-defined procedure, or set of instructions, for\naccomplishing a specific task.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:What is an Algorithm?",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/what-is-an-algorithm\">What is an Algorithm?</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "2922",
           "text": "algorithm",
-          "weight": 100,
           "comments": "",
-          "id": 2922
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "4288",
           "text": "Algorithm",
-          "weight": 100,
           "comments": "",
-          "id": 4288
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -122,36 +124,39 @@
       "id": 366206,
       "quiz_id": 53430,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 2,
+      "assessment_question_id": 632079,
+      "position": null,
       "question_name": "Question 2",
       "question_type": "short_answer_question",
-      "question_text": "_____ is used to classify algorithms according to how their run time or\nspace requirements grow as the input size grows.",
+      "question_text": "<p>_____ is used to classify algorithms according to how their run time or\nspace requirements grow as the input size grows.</p>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Big O Notation",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/big-o-notation\">Big O Notation</a></li></ul><p></p>",
       "answers": [
         {
+          "id": "4872",
           "text": "Big O",
-          "weight": 100,
           "comments": "",
-          "id": 4872
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "7611",
           "text": "Big O notation",
-          "weight": 100,
           "comments": "",
-          "id": 7611
+          "comments_html": "",
+          "weight": 100
         },
         {
+          "id": "9881",
           "text": "Big O Notation",
-          "weight": 100,
           "comments": "",
-          "id": 9881
+          "comments_html": "",
+          "weight": 100
         }
       ],
       "variables": null,
@@ -165,8 +170,8 @@
       "id": 366207,
       "quiz_id": 53430,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 3,
+      "assessment_question_id": 632082,
+      "position": null,
       "question_name": "Question 3",
       "question_type": "multiple_choice_question",
       "question_text": "<p>Calculate the <strong>time complexity</strong> for the following code using Big O notation:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">logLetter</span><span class=\"p\">(</span><span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">for</span> <span class=\"p\">(</span><span class=\"kd\">const</span> <span class=\"nx\">letter</span> <span class=\"k\">of</span> <span class=\"nx\">string</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n    <span class=\"nx\">console</span><span class=\"p\">.</span><span class=\"nx\">log</span><span class=\"p\">(</span><span class=\"nx\">letter</span><span class=\"p\">);</span>\n  <span class=\"p\">}</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
@@ -174,49 +179,49 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Big O Notation",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/big-o-notation\">Big O Notation</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_4056",
-          "id": 4056,
-          "text": "O(n)",
-          "comments": "Correct! Since the algorithm needs to iterate through each letter of the input, the time complexity will grow in linear proportion to the size of the input.",
-          "comments_html": "Correct! Since the algorithm needs to iterate through each letter of the input,\nthe time complexity will grow in linear proportion to the size of the input."
+          "id": 6953,
+          "text": "",
+          "html": "<p>O(n)</p>",
+          "comments": "",
+          "comments_html": "<p>Correct! Since the algorithm needs to iterate through each letter of the input,\nthe time complexity will grow in linear proportion to the size of the input.</p>",
+          "weight": 100.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_3856",
-          "id": 3856,
-          "text": "O(1)",
-          "comments": "Not quite. O(1) would mean the algorithm's runtime stays the same regardless of how large the input is.",
-          "comments_html": "Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is."
+          "id": 3371,
+          "text": "",
+          "html": "<p>O(1)</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_2817",
-          "id": 2817,
-          "text": "O(n²)",
-          "comments": "Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the size of the input grows, like an algorithm that involved a nested loop.",
-          "comments_html": "Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the\nsize of the input grows, like an algorithm that involved a nested loop."
+          "id": 3572,
+          "text": "",
+          "html": "<p>O(n²)</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the\nsize of the input grows, like an algorithm that involved a nested loop.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_2218",
-          "id": 2218,
-          "text": "O(log n)",
-          "comments": "Not quite. O(log n) would mean that the algorithm's time complexity grows in a logarithmic proportion to the size of the input (so an input of size 1 would take 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).",
-          "comments_html": "Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc)."
+          "id": 8462,
+          "text": "",
+          "html": "<p>O(log n)</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_921",
-          "id": 921,
-          "text": "I don't know",
-          "html": "I don't know",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 3775,
+          "text": "",
+          "html": "<p>I don't know</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -230,58 +235,58 @@
       "id": 366208,
       "quiz_id": 53430,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 4,
+      "assessment_question_id": 632080,
+      "position": null,
       "question_name": "Question 4",
       "question_type": "multiple_choice_question",
       "question_text": "<p>Calculate the <strong>time complexity</strong> for the following code using Big O notation:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">badCounting</span><span class=\"p\">(</span><span class=\"nx\">array</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"kd\">let</span> <span class=\"nx\">count</span> <span class=\"o\">=</span> <span class=\"mi\">0</span><span class=\"p\">;</span>\n  <span class=\"nx\">array</span><span class=\"p\">.</span><span class=\"nx\">forEach</span><span class=\"p\">((</span><span class=\"nx\">value</span><span class=\"p\">,</span> <span class=\"nx\">idx</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"p\">{</span>\n    <span class=\"nx\">array</span><span class=\"p\">.</span><span class=\"nx\">forEach</span><span class=\"p\">((</span><span class=\"nx\">testValue</span><span class=\"p\">,</span> <span class=\"nx\">testIdx</span><span class=\"p\">)</span> <span class=\"o\">=&gt;</span> <span class=\"p\">{</span>\n      <span class=\"k\">if</span> <span class=\"p\">(</span><span class=\"nx\">testIdx</span> <span class=\"o\">!==</span> <span class=\"nx\">idx</span> <span class=\"o\">&amp;&amp;</span> <span class=\"nx\">value</span> <span class=\"o\">===</span> <span class=\"nx\">testValue</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n        <span class=\"nx\">count</span><span class=\"o\">++</span><span class=\"p\">;</span>\n      <span class=\"p\">}</span>\n    <span class=\"p\">});</span>\n  <span class=\"p\">});</span>\n  <span class=\"k\">return</span> <span class=\"nx\">count</span> <span class=\"o\">/</span> <span class=\"mi\">2</span><span class=\"p\">;</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
       "points_possible": 1.0,
       "correct_comments": "",
       "incorrect_comments": "",
-      "neutral_comments": null,
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
-      "neutral_comments_html": null,
+      "neutral_comments": "",
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
+      "neutral_comments_html": "",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_4805",
-          "id": 4805,
-          "text": "O(n²)",
-          "comments": "Correct! Since this algorithm comparing each element against each other element in this array, as the size of the input array grows, the runtime gets exponentially worse.",
-          "comments_html": "Correct! Since this algorithm comparing each element against each other element\nin this array, as the size of the input array grows, the runtime gets\nexponentially worse."
+          "id": 3284,
+          "text": "",
+          "html": "<p>O(n²)</p>",
+          "comments": "",
+          "comments_html": "<p>Correct! Since this algorithm comparing each element against each other element\nin this array, as the size of the input array grows, the runtime gets\nexponentially worse.</p>",
+          "weight": 100.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_7503",
-          "id": 7503,
-          "text": "O(n)",
-          "comments": "Now quite. O(n) would mean the time complexity will grow in linear proportion to the size of the input.",
-          "comments_html": "Now quite. O(n) would mean the time complexity will grow in linear proportion to\nthe size of the input."
+          "id": 556,
+          "text": "",
+          "html": "<p>O(n)</p>",
+          "comments": "",
+          "comments_html": "<p>Now quite. O(n) would mean the time complexity will grow in linear proportion to\nthe size of the input.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_989",
-          "id": 989,
-          "text": "O(1)",
-          "comments": "Not quite. O(1) would mean the algorithm's runtime stays the same regardless of how large the input is.",
-          "comments_html": "Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is."
+          "id": 3602,
+          "text": "",
+          "html": "<p>O(1)</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_7132",
-          "id": 7132,
-          "text": "O(log n)",
-          "comments": "Not quite. O(log n) would mean that the algorithm's time complexity grows in a logarithmic proportion to the size of the input (so an input of size 1 would take 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).",
-          "comments_html": "Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc)."
+          "id": 8037,
+          "text": "",
+          "html": "<p>O(log n)</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_4804",
-          "id": 4804,
-          "text": "I don't know",
-          "html": "I don't know",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 7693,
+          "text": "",
+          "html": "<p>I don't know</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
@@ -295,8 +300,8 @@
       "id": 366209,
       "quiz_id": 53430,
       "quiz_group_id": null,
-      "assessment_question_id": null,
-      "position": 5,
+      "assessment_question_id": 632078,
+      "position": null,
       "question_name": "Question 5",
       "question_type": "multiple_choice_question",
       "question_text": "<p>Calculate the <strong>time complexity</strong> for the following code using Big O notation:</p>\n<div class=\"highlight\"><pre class=\"highlight javascript\"><code><span class=\"kd\">function</span> <span class=\"nx\">findIndexOfElement</span><span class=\"p\">(</span><span class=\"nx\">array</span><span class=\"p\">,</span> <span class=\"nx\">target</span><span class=\"p\">)</span> <span class=\"p\">{</span>\n  <span class=\"k\">return</span> <span class=\"nx\">array</span><span class=\"p\">.</span><span class=\"nx\">indexOf</span><span class=\"p\">(</span><span class=\"nx\">target</span><span class=\"p\">);</span>\n<span class=\"p\">}</span>\n</code></pre></div>",
@@ -304,49 +309,49 @@
       "correct_comments": "",
       "incorrect_comments": "",
       "neutral_comments": "Source/s:Big O Notation",
-      "correct_comments_html": null,
-      "incorrect_comments_html": null,
+      "correct_comments_html": "",
+      "incorrect_comments_html": "",
       "neutral_comments_html": "<p><strong>Source/s:</strong></p><ul><li><a href=\"/courses/7550/pages/big-o-notation\">Big O Notation</a></li></ul><p></p>",
       "answers": [
         {
-          "weight": 100,
-          "migration_id": "RESPONSE_6463",
-          "id": 6463,
-          "text": "O(n)",
-          "comments": "Correct! Even though we're building a built-in method, the JavaScript engine would still need to iterate over every element of the input array under the hood in order to find the index position of the target element.",
-          "comments_html": "Correct! Even though we're building a built-in method, the JavaScript engine\nwould still need to iterate over every element of the input array under the hood\nin order to find the index position of the target element."
+          "id": 2350,
+          "text": "",
+          "html": "<p>O(n)</p>",
+          "comments": "",
+          "comments_html": "<p>Correct! Even though we're building a built-in method, the JavaScript engine\nwould still need to iterate over every element of the input array under the hood\nin order to find the index position of the target element.</p>",
+          "weight": 100.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_5633",
-          "id": 5633,
-          "text": "O(1)",
-          "comments": "Not quite. O(1) would mean the algorithm's runtime stays the same regardless of how large the input is. Even though we're using a built-in method, the JavaScript engine still needs to iterate over every element of the input array under the hood in order to find the index position of the target element.",
-          "comments_html": "Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is. Even though we're using a built-in method, the\nJavaScript engine still needs to iterate over every element of the input array\nunder the hood in order to find the index position of the target element."
+          "id": 7857,
+          "text": "",
+          "html": "<p>O(1)</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. O(1) would mean the algorithm's runtime stays the same regardless of\nhow large the input is. Even though we're using a built-in method, the\nJavaScript engine still needs to iterate over every element of the input array\nunder the hood in order to find the index position of the target element.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_8228",
-          "id": 8228,
-          "text": "O(n²)",
-          "comments": "Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the size of the input grows, like an algorithm that involved a nested loop.",
-          "comments_html": "Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the\nsize of the input grows, like an algorithm that involved a nested loop."
+          "id": 9974,
+          "text": "",
+          "html": "<p>O(n²)</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. O(n²) would mean the algorithm's runtime grows exponentially as the\nsize of the input grows, like an algorithm that involved a nested loop.</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_5173",
-          "id": 5173,
-          "text": "O(log n)",
-          "comments": "Not quite. O(log n) would mean that the algorithm's time complexity grows in a logarithmic proportion to the size of the input (so an input of size 1 would take 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).",
-          "comments_html": "Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc)."
+          "id": 8016,
+          "text": "",
+          "html": "<p>O(log n)</p>",
+          "comments": "",
+          "comments_html": "<p>Not quite. O(log n) would mean that the algorithm's time complexity grows in a\nlogarithmic proportion to the size of the input (so an input of size 1 would\ntake 1 step, size 10 would take 2 steps, size 100 would take 3 steps, etc).</p>",
+          "weight": 0.0
         },
         {
-          "weight": 0,
-          "migration_id": "RESPONSE_4780",
-          "id": 4780,
-          "text": "I don't know",
-          "html": "I don't know",
-          "comments": "Be sure to study the source/s for this question. You'll get it next time."
+          "id": 408,
+          "text": "",
+          "html": "<p>I don't know</p>",
+          "comments": "",
+          "comments_html": "<p>Be sure to study the source/s for this question. You'll get it next time.</p>",
+          "weight": 0.0
         }
       ],
       "variables": null,
